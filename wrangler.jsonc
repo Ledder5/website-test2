@@ -1,13 +1,19 @@
 {
-	"compatibility_date": "2026-06-01",
-	"compatibility_flags": ["global_fetch_strictly_public"],
-	"name": "website-test",
-	"main": "@astrojs/cloudflare/entrypoints/server",
-	"assets": {
-		"directory": "./dist",
-		"binding": "ASSETS"
-	},
-	"observability": {
-		"enabled": true
-	}
+    "compatibility_date": "2026-06-01",
+    "compatibility_flags": ["global_fetch_strictly_public"],
+    "name": "website-test2",
+    "main": "@astrojs/cloudflare/entrypoints/server",
+    "assets": {
+        "directory": "./dist",
+        "binding": "ASSETS"
+    },
+    "observability": {
+        "enabled": true
+    },
+    "kv_namespaces": [
+        {
+            "binding": "SESSION",
+            "id": "32f0453347224b16b0826f7c6deb33f7" 
+        }
+    ]
 }
