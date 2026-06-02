@@ -1,7 +1,7 @@
 {
 	"compatibility_date": "2026-06-01",
 	"compatibility_flags": ["global_fetch_strictly_public"],
-	"name": "website-test",
+	"name": "website-test2",
 	"main": "@astrojs/cloudflare/entrypoints/server",
 	"assets": {
 		"directory": "./dist",
